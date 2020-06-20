@@ -1,0 +1,45 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "UXlab",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.youtube.com/channel/UCgfaifzmqadwKyCd0lagylQ"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "UX NOW",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.youtube.com/channel/UCgfaifzmqadwKyCd0lagylQ"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "title": "UX Unicórnio",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.youtube.com/channel/UCgfaifzmqadwKyCd0lagylQ"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "2 vídeos por dia",
+      "name": "Youtube",
+      "cta": "Assistir"
+    },
+    {
+      "id": 2,
+      "title": "Leitura nas pausas",
+      "name": "Site",
+      "cta": "Ler"
+    },
+    {
+      "id": 3,
+      "title": "Leitura nas pausas",
+      "name": "Site",
+      "cta": "Ler"
+    }
+  ]
+}

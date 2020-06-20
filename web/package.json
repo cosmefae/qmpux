@@ -6,14 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "node-sass": "^4.14.1",
+    "normalize-css": "^2.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts start",
+    "build": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts build",
+    "test": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -28,7 +31,12 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 ie version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cross-env": "^7.0.2"
   }
 }
