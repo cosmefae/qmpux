@@ -4,23 +4,29 @@ import TipCard from './components/Tip/Card/Card';
 import axios from 'axios';
 
 const App = () => {
-  const [tips, setTips] = useState([]);
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
     axios.get('http://localhost:5000/categories?_embed=tips')
       .then((response) => {
-        setTips(response.data);
+        console.log(response.data);
+        setCategories(response.data);
       });
   }, []);
 
-
   return (
     <div className="App">
-      <div className="cards">
-        {tips.map((tip) => (
-          <TipCard tip={tip} />
-        ))};
-      </div>
+      <section className="cards">
+        {categories.map((category) => (
+          <div key={category.id} className={`category ${category.name}`}>
+            <h2>{category.title}</h2>
+            
+            {category.tips.map((fandangos) => (
+              <TipCard key={fandangos.id} category={category} tip={fandangos} />
+            ))}
+          </div>
+        ))}
+      </section>
     </div>
   );
 };
