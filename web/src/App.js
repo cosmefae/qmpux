@@ -18,11 +18,13 @@ const App = () => {
     <div className="App">
       <section className="cards">
         {categories.map((category) => (
-          <div key={category.id} className={`category ${category.name}`}>
-            <h2>{category.title}</h2>
+          <div key={category.id} className={`category category--${category.name}`}>
+            <header>
+              <h2 class="title-main">{category.title}</h2>
+            </header>
             
-            {category.tips.map((fandangos) => (
-              <TipCard key={fandangos.id} category={category} tip={fandangos} />
+            {category.tips.map((tip) => (
+              <TipCard key={tip.id} category={category} tip={tip} />
             ))}
           </div>
         ))}

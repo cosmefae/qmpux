@@ -5,21 +5,91 @@
       "categoryId": 1,
       "title": "UXlab",
       "imageUrl": "https://picsum.photos/300/150",
-      "url": "https://www.youtube.com/channel/UCgfaifzmqadwKyCd0lagylQ"
+      "url": "https://www.youtube.com/channel/UCw-CQYphBIs_nplLNJuz44w"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "title": "UX NOW",
+      "title": "UXNOW",
       "imageUrl": "https://picsum.photos/300/150",
       "url": "https://www.youtube.com/channel/UCgfaifzmqadwKyCd0lagylQ"
     },
     {
       "id": 3,
-      "categoryId": 2,
+      "categoryId": 1,
       "title": "UX Unicórnio",
       "imageUrl": "https://picsum.photos/300/150",
-      "url": "https://www.youtube.com/channel/UCgfaifzmqadwKyCd0lagylQ"
+      "url": "https://www.youtube.com/channel/UCiq0W1B5CuFaWLXfL8M6lSQ"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "UX Collective BR",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://brasil.uxdesign.cc"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "UI Lab",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://medium.com/ui-lab-school"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "title": "Coletivo UX",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://coletivoux.com"
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "title": "Mergo",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.mergo.com.br"
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "title": "Meiuca",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://meiuca.design"
+    },
+    {
+      "id": 9,
+      "categoryId": 4,
+      "title": "Movimento UX",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.movimentoux.com"
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "title": "UXlab",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://open.spotify.com/show/0f2hoLnZXsD8I8xWPUwFhv"
+    },
+    {
+      "id": 11,
+      "categoryId": 5,
+      "title": "UX RJ",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://chat.whatsapp.com/DNN0X7qLhmWA6HPJmR8YaK"
+    },
+    {
+      "id": 12,
+      "categoryId": 6,
+      "title": "UXConf BR",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.uxconf.com.br"
+    },
+    {
+      "id": 13,
+      "categoryId": 6,
+      "title": "Design & Experience",
+      "imageUrl": "https://picsum.photos/300/150",
+      "url": "https://www.dexconf.com.br/"
     }
   ],
   "categories": [
@@ -32,14 +102,32 @@
     {
       "id": 2,
       "title": "Leitura nas pausas",
-      "name": "Site",
+      "name": "Blogs",
       "cta": "Ler"
     },
     {
       "id": 3,
-      "title": "outra categoria",
-      "name": "Site",
-      "cta": "Ler"
+      "title": "Cursos pra acelerar",
+      "name": "Cursos",
+      "cta": "Começar"
+    },
+    {
+      "id": 4,
+      "title": "Podcasts limpando a casa",
+      "name": "Podcasts",
+      "cta": "Ouvir"
+    },
+    {
+      "id": 5,
+      "title": "Grupos WhatsApp pras novidades",
+      "name": "WhatsApp",
+      "cta": "Começar"
+    },
+    {
+      "id": 6,
+      "title": "Eventos pra humanizar",
+      "name": "Eventos",
+      "cta": "Inscrever"
     }
   ]
 }
