@@ -3,7 +3,8 @@
  * =================================
  */
 body {
-	background-color: #fff;
+  background-color: #fff;
+  color: #1D1D1D;
 }
 
 /**
@@ -11,6 +12,14 @@ body {
  */
 .l-container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.category {
+  margin-bottom: 90px;
+}
+
+.title-main {
+  font:700 3rem "Work Sans";
 }

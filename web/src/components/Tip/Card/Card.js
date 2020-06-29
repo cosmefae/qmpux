@@ -2,7 +2,6 @@ import React from 'react';
 import './Card.scss';
 
 const TipCard = ({ tip,category }) => {
-  console.log(tip);
   return (
     <div className={"g-col g-span4 tip-card"} 
           id={"tip-card__" + tip.id}>
