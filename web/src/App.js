@@ -1,5 +1,9 @@
 import React, {useEffect, useState} from 'react';
+
 import 'normalize-css/normalize.css';
+import 'kickoff-grid.css';
+import './assets/style/index.scss';
+
 import TipCard from './components/Tip/Card/Card';
 import axios from 'axios';
 
@@ -15,20 +19,20 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
-      <section className="cards">
-        {categories.map((category) => (
-          <div key={category.id} className={`category category--${category.name}`}>
-            <header>
-              <h2 class="title-main">{category.title}</h2>
-            </header>
-            
+    <div className="l-container">
+      {categories.map((category) => (
+        <section key={category.id} className={`category category--${category.name}`}>
+          <header>
+            <h2 class="title-main">{category.title}</h2>
+          </header>
+          
+          <div class="cards g g--gutter g--equalHeight">
             {category.tips.map((tip) => (
               <TipCard key={tip.id} category={category} tip={tip} />
             ))}
           </div>
-        ))}
-      </section>
+        </section>
+      ))}
     </div>
   );
 };

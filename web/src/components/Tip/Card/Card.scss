@@ -1,12 +1,6 @@
 
 .cards {
-  display: flex;
-  flex-wrap: nowrap;
-
   .tip-card {
-    width: 300px;
-    height: 150px;
-    align-items: center;
     position: relative;
 
     &__link {
